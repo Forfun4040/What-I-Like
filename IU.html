@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>What I Like</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper #757575 grey darken-1">
+            <a href="#" class="brand-logo center">What I Like</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="IU.html">IU</a></li>
+                <li><a href="CHOCO.html">CHOCO</a></li>
+                <li><a href="PIE.html">PIE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--PUSH and PULL-->
+
+    <div class="carousel">
+        <a href="#one!" class="carousel-item">
+        <img src="img/IU1.jpeg" alt="">
+        </a>
+        <a href="#two!" class="carousel-item">
+        <img src="img/IU2.jpeg" alt="">
+        </a>
+        <a href="#three!" class="carousel-item">
+        <img src="img/IU3.jpeg" alt="">
+        </a>
+        <a href="#four!" class="carousel-item">
+        <img src="img/IU4.jpeg" alt="">
+        </a>
+        <a href="#five!" class="carousel-item">
+        <img src="img/IU5.png" alt="">
+        </a>
+        <a href="#six!" class="carousel-item">
+        <img src="img/IU6.gif" alt="">
+        </a>
+        <a href="#seven!" class="carousel-item">
+        <img src="img/IU7.jpg" alt="">
+        </a>
+        <a href="#eight!" class="carousel-item">
+        <img src="img/IU8.png" alt="">
+        </a>
+        <a href="#nine!" class="carousel-item">
+        <img src="img/IU9.gif" alt="">
+        </a>
+        <a href="#ten!" class="carousel-item">
+        <img src="img/IU10.gif" alt="">
+        </a>
+        <a href="#eleven!" class="carousel-item">
+        <img src="img/IU11.gif" alt="">
+        </a>
+        <a href="#twelve!" class="carousel-item">
+        <img src="img/IU12.jpg" alt="">
+        </a>
+        <a href="#thirteen!" class="carousel-item">
+        <img src="img/IU13.png" alt="">
+        </a>
+        <a href="#fourteen!" class="carousel-item">
+        <img src="img/IU14.jpeg" alt="">
+        </a>
+        <a href="#fifteen!" class="carousel-item">
+        <img src="img/IU15.gif" alt="">
+        </a>
+        <a href="#sixteen!" class="carousel-item">
+        <img src="img/IU16.png" alt="">
+        </a>
+        <a href="#seventeen!" class="carousel-item">
+        <img src="img/IU17.jpg" alt="">
+        </a>
+        <a href="#eighteen!" class="carousel-item">
+        <img src="img/IU18.jpeg" alt="">
+        </a>
+    </div>
+  
+    <div class="row">
+        <div class="card-panel #9575cd deep-purple lighten-2">
+            <div class="card-panel white">
+                <strong>Background</strong> <br>
+                    <li><strong>Name: </strong>IU/아이유<br></li>
+                    <li><strong>Real Name:</strong> Lee Ji Eun/이지은/ <br></li>
+                    <li><strong>Birthday:</strong> May 16, 1993<br></li>
+                    <li><strong>Zodiac:</strong> Chicken<br></li>
+                    <li><strong>Debut Day:</strong> September 18, 2008<br></li>
+                    <li><strong>Height:</strong> 161.8 cm<br></li>
+                    <li><strong>Family:</strong> Mom, Dad, and one Younger Brother<br></li>
+                    <li><strong>Fandom Name:</strong>Uaena, 유애나, U爱나<br>
+                    <li><strong>pics of Uaena:  </strong><img id="Uaena1" src="img/Uaena1.png" alt=""></li>
+                    </li>
+                    <div id="Uaena3"><li><strong>Famous Quote of Uaena:</strong><img id="Uaena2" src="img/Uaina2.jpg" alt=""><br></li></div>
+                    <li><strong>Favorite Color:</strong> Dark Purple</li>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <p>Gce Favorite / Cropyright &copy;2021</p>
+</footer>
+
+<script type = "text/javascript" src = "js/jquery.js"></script>           
+<script src = "js/materialize.min.js"></script> 
+<script>
+    $(document).ready(function(){
+         //Initialize Carousel
+         $('.carousel').carousel();
+
+         //Initialize Carousel Slider
+         $('.carousel.carousel-slider').carousel({fullWidth:true});
+
+         //Initialize Collapsible
+         $('.collapsible').collapsible();
+
+         //Fire off toast
+         M.toast({html:'Hello World'});
+
+         //Tooltips
+         $('.tooltipped').tooltip();
+
+         //Dropdown
+         $('.dropdown-trigger').dropdown();
+
+         //Material Box
+         $('.materialboxed').materialbox();
+
+         //Slide
+         $('.slider').slider();
+
+         //Modals
+         $('.modal').modal();
+
+         //Slide Menu
+         $('.sidenav').sidenav();
+         
+         //Tabs
+         $('.tabs').tabs();
+
+         //Tap Target
+         $('.tap-target').tapTarget();
+    });
+ </script>
+</body>
+
+</html>
